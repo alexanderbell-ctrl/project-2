@@ -2,6 +2,7 @@
 Intro to C / number guessing game
 
 ### Algorithm
+
 include standard library (stdlib.h)
 include standard I/O library (stdio.h)
 include time library (time.h)
@@ -11,8 +12,7 @@ int main()
     'char' variable 'name' stores user's name
     scanf to take terminal input, placing into 'name'
     printf prints welcome message w/ user's name
-
-    - generate random number
+    -generate random number
     set the seed for rand() as the current time: srand(time(NULL))
     integer 'game_value' = rand()
     
@@ -36,9 +36,5 @@ int main()
         else guess is game_value
             print "You win"
             keepGoing = false
-
-
-
-
 
 
